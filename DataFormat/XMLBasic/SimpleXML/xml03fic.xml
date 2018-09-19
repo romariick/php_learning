@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html lang='fr'>
+    <head title = "Attributs" sexe = 'Masculin'>
+        <title>PHP 5</title>
+    </head>
+<body>
+    <h1>PHP 5</h1>
+    <p>La version 5 de vient de sortir</p>
+    <p>La dernière version était la 4.3.x</p>
+</body>
+</html>

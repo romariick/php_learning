@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<auteurs>
+    <auteur>
+        <nom>Romaric Lalaina</nom>
+        <livre>PHP 5</livre>
+        <livre>Language C</livre>
+    </auteur>
+    
+    <auteur>
+        <nom>Ravokatso Oly</nom>
+        <livre>PHP 7</livre>
+        <livre>Language C++</livre>
+    </auteur>
+</auteurs>
