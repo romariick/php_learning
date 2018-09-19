@@ -2,4 +2,4 @@ language: php
 
 php:
   - 7.1
-script: composer install
+script: composer install && vendor/bin/php-cs-fixer fix .
