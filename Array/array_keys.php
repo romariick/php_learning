@@ -11,5 +11,5 @@ $ret = vsprintf('Les arrgummnt %s ', array_keys($array2, '2', true));
 
 echo $ret;
 
-// array_keys retourn les clés d'un tableaux. Si on précise le deuxième élement 
+// array_keys retourn les clés d'un tableaux. Si on précise le deuxième élement
 // il retourne le la clé du valeur demandé.

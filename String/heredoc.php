@@ -1,6 +1,6 @@
 <?php
 
-/* 
+/*
   heredoc : possible de parser
  */
 $name = 'Romaric';
@@ -10,4 +10,3 @@ $chaine = <<<EOD
 EOD;
 
 echo $chaine;// voici les textes Romaric
-

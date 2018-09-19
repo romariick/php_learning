@@ -2,7 +2,7 @@
 
 /*
     Les opérateurs arithmetique sont :
- *  + : addition 
+ *  + : addition
  *  - : soustractio
  *  % : modula
  *  / : division
@@ -12,9 +12,9 @@ $rt = strcmp("aaa", "aaaa");
 echo $rt;
 
 echo 10 + 10 ; // 20
-echo 10 - 10 ; // 0 
+echo 10 - 10 ; // 0
 echo 10 % 2 ; // 0
-echo (10 / 2).PHP_EOL; // 5
+echo(10 / 2).PHP_EOL; // 5
 // Notes :
 print 20% - 8; // 4
 print -20%8; //-4 : $a % $b => mitondra ny signe ny $a.

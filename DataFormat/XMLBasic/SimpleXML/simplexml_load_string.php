@@ -10,5 +10,3 @@ $racine = simplexml_load_string($xml); // return simpleXMLElement
  * Copie dans un fichier xml
  */
 $racine->asXML('copie.xml');
-
-

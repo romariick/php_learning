@@ -1,6 +1,6 @@
 <?php
 
-/* 
+/*
   Impossible de parser
  */
 

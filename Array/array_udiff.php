@@ -3,8 +3,9 @@
 $array1 = ["A"=> 1, "B"=>2, "C"=>3];
 $array2 = ["A"=> 1, "B"=>'2', "C"=>3, 'D'=>'2', "AAA"=>10];
 
-function myFunction($a, $b){
-    if($a === $b){
+function myFunction($a, $b)
+{
+    if ($a === $b) {
         return 0;
     }
     return ($a > $b) ? 1 : -1;

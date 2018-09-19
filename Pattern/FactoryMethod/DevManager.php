@@ -2,17 +2,12 @@
 
 
 
-/**
- * Description of DevManager
- *
- * @author Romaric
- */
-class DevManager extends HirringManager {
-    public function makeIntervier() 
+class DevManager extends HirringManager
+{
+    public function makeIntervier()
     {
         return new Developper();
     }
-
 }
 
 $dev = new DevManager();

@@ -1,12 +1,7 @@
 <?php
 
 
-/**
- * Description of Interviewer
- *
- * @author Romaric
- */
-interface Interviewer {
-    
+interface Interviewer
+{
     public function asQuestion();
 }

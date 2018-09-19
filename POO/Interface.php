@@ -1,17 +1,22 @@
 <?php
 
-interface IVoiture{
+interface IVoiture
+{
     public function demarrer();
     public function arreter();
 }
-class Voiture implements IVoiture{
-    public function __construct() {    
+class Voiture implements IVoiture
+{
+    public function __construct()
+    {
     }
     
-    public function demarrer() {
+    public function demarrer()
+    {
         echo 'demarrer';
     }
-    public function arreter() {
+    public function arreter()
+    {
         echo 'arreter';
     }
 }

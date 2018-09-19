@@ -1,10 +1,11 @@
 <?php
 
-/* 
+/*
  * Pour exécuter une fonction il faut utiliser le ().
  */
 
-function func(){
+function func()
+{
     echo 'Variable function';
 }
 

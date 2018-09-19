@@ -14,4 +14,4 @@ $json = '{
 
 /*Format json to array json decode*/
 
-print_r (json_decode($json, true));
+print_r(json_decode($json, true));

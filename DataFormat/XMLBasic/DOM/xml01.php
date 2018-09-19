@@ -8,12 +8,9 @@ $nodes  = $document->childNodes;
 
 $nodeLis =  new DOMNameList($document);
 
-foreach ($nodeLis as $nodLs){
+foreach ($nodeLis as $nodLs) {
     echo 'Noeud : '.$nodLs;
 }
-foreach ($nodes as $node){ 
+foreach ($nodes as $node) {
     echo 'Tag name : '.$node->tagName;
 }
-
-
-

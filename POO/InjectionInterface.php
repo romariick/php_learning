@@ -1,28 +1,38 @@
 <?php
 
-interface IAdresse{
+interface IAdresse
+{
     public function getFullAddress();
 }
 
-class Address implements IAdresse{
-    public function __construct() {}
+class Address implements IAdresse
+{
+    public function __construct()
+    {
+    }
     
-    public function getFullAddress() {
+    public function getFullAddress()
+    {
         echo 'Full address';
     }
 }
 
-class NonAddress implements IAdresse{    
-    public function getFullAddress() {
-         echo 'Full address 2';
+class NonAddress implements IAdresse
+{
+    public function getFullAddress()
+    {
+        echo 'Full address 2';
     }
 }
 
-class Person{
-    public function __construct(IAdresse $iaddress) {
+class Person
+{
+    public function __construct(IAdresse $iaddress)
+    {
         $this->iaddress = $iaddress;
     }
-    public function getAdress() {       
+    public function getAdress()
+    {
         return $this->iaddress;
     }
 }

@@ -1,16 +1,10 @@
 <?php
 
 
-
-/**
- * Description of CreerMaison
- *
- * @author Romaric
- */
-class CreerMaison 
+class CreerMaison
 {
-    public static function faireMaison($largeur, $hauteur){
+    public static function faireMaison($largeur, $hauteur)
+    {
         return new Maison($largeur, $hauteur);
     }
-
 }

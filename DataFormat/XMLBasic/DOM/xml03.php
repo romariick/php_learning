@@ -8,11 +8,9 @@ $racine = $document->documentElement;
 
 $auteurs = $document->getElementsByTagName('auteur');
 
-foreach ($auteurs as $auteur){
-    
-    foreach ($auteur->childNodes as $node){
-    if($node->nodeType == XML_ELEMENT_NODE){
-            
-      }
+foreach ($auteurs as $auteur) {
+    foreach ($auteur->childNodes as $node) {
+        if ($node->nodeType == XML_ELEMENT_NODE) {
+        }
     }
 }

@@ -1,13 +1,17 @@
 <?php
 
-class Voiture{
-    public function __construct() {
+class Voiture
+{
+    public function __construct()
+    {
         echo 'Appeler à la construction de l\'objet';
     }
-    public function vitesse() {
+    public function vitesse()
+    {
         echo 'Vitesse de 120 Km/h';
     }
-    public function __destruct() {
+    public function __destruct()
+    {
         echo 'Appeler à la destruction de l\'objet';
     }
 }

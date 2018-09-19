@@ -13,7 +13,7 @@ Array
     [b] => 4
     [c] => 5
 )
-*  
- * Crée un tableau dont le keys sont les valeurs du premier tableau et le deuxième 
+*
+ * Crée un tableau dont le keys sont les valeurs du premier tableau et le deuxième
  * c'est la valeur du valeur
 */

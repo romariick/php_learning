@@ -11,10 +11,10 @@
  *
  * @author Romaric
  */
-class JsonFactory extends AbstractFactory {
-    
-    public function createText($content) {
+class JsonFactory extends AbstractFactory
+{
+    public function createText($content)
+    {
         return new JsonText($content);
     }
-
 }

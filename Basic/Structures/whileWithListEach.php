@@ -7,12 +7,12 @@ $array = [0 => 1,
 
 
 
-while(key($array) !== null){
+while (key($array) !== null) {
     echo " Current : ".  current($array);
     next($array);
 }
 /*Identique comme foreach($array as $value => $key) */
 
-while(list($key, $value) = each($array)){
+while (list($key, $value) = each($array)) {
     echo 'Key :'. $key. ' Value : '. $value;
 }

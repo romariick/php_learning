@@ -1,9 +1,12 @@
 <?php
 
-class Megane {
-    public function __construct() {      
+class Megane
+{
+    public function __construct()
+    {
     }
-    public function vitesseMegane() {
+    public function vitesseMegane()
+    {
         echo '1000 km';
     }
 }

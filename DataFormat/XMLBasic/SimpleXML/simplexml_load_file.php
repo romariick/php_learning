@@ -9,10 +9,10 @@ $element_p = $racine->body->p;
 
 /*Plusieurs noeud */
 
-foreach ($element_p as $p){
+foreach ($element_p as $p) {
     echo utf8_decode($p).PHP_EOL;
 }
 /*Récuperer les fils de noeud*/
-foreach ($racine->body->children() as $nom => $element){
-    echo "La balise $nom contient l'element $element".PHP_EOL; 
+foreach ($racine->body->children() as $nom => $element) {
+    echo "La balise $nom contient l'element $element".PHP_EOL;
 }

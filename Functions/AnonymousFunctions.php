@@ -2,10 +2,10 @@
 
 /*
  * Lamba function ou fonction de fermeture.
- *  
+ *
  */
 
-$func = function($name){
+$func = function ($name) {
     printf('Hello word %s', $name);
 };
 $func('Romaric');

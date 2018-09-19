@@ -1,6 +1,6 @@
 <?php
 
-/* 
+/*
   int strlen(string), : calcul la taille d'un chaîne en byte.
  */
 
@@ -12,4 +12,4 @@ $chaineAvecAccent = 'chaîne de caractère';
 
 echo strlen($chaineAvecAccent); // 21
 
-print_r(strlen([0, 1, 2]));// error 
+print_r(strlen([0, 1, 2]));// error

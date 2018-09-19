@@ -2,11 +2,13 @@
 require_once '../Autoload.php';
 Autoload::register();
 
-class Voiture {
-    public function __construct() {
-        
+class Voiture
+{
+    public function __construct()
+    {
     }
-    public function somme() {
+    public function somme()
+    {
         echo 'sommeOk';
     }
 }

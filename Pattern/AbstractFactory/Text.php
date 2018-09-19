@@ -11,11 +11,12 @@
  *
  * @author Romaric
  */
-abstract class Text {
-    
+abstract class Text
+{
     private $text;
     
-    public function __construct($text) {
+    public function __construct($text)
+    {
         $this->text = $text;
     }
 }

@@ -1,11 +1,11 @@
 <?php
 
-/*Les opérateurs d'un array sont : 
+/*Les opérateurs d'un array sont :
  +  : union
  == : equality(
- == : identity (key/value) 
+ == : identity (key/value)
 !=  : not equals
-!== :   
+!== :
  *  */
 
 $a = [1, 2, 3, 4, 5];

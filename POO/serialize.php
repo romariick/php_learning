@@ -1,18 +1,21 @@
 <?php
 
-class A{
+class A
+{
     public $a = 10;
     
-    public function showMe() {
+    public function showMe()
+    {
         echo 'Show me'.PHP_EOL;
     }
-    public function __sleep() {
+    public function __sleep()
+    {
         return ['a'];
     }
-    public function __wakeup() {
+    public function __wakeup()
+    {
         echo 'Wakeup deserialization';
     }
-  
 }
 
 $a = new A();
@@ -22,7 +25,7 @@ $userialize = unserialize($aSerialize);
 var_dump($userialize);
 
 /*
- * Conclusion : 
+ * Conclusion :
  *  - serialize convertit un objet en chaîne.
  *  - unserialize converti une chaîne en Objet.
  */

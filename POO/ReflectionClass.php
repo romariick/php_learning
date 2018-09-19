@@ -9,6 +9,3 @@ $reflectionClass->getInterfaces();
 
 $reflecFunctio = new ReflectionObject('Voiture');
 $reflecFunctio->getConstants();
-        
-
-

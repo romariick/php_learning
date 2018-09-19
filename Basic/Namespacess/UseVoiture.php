@@ -1,7 +1,7 @@
 <?php
 
 /*
-   Namespaces : c'est comme les package en Java ; donc pour utiliser un 
+   Namespaces : c'est comme les package en Java ; donc pour utiliser un
  * package il faut utiliser le mot clé use suivi du nom du class.
  *
  */

@@ -1,10 +1,12 @@
 <?php
 
-class A{
-    public function __construct() {
-        
+class A
+{
+    public function __construct()
+    {
     }
-    public function getMethodClass() {
+    public function getMethodClass()
+    {
         echo 'Method magic : '.__CLASS__;
     }
 }

@@ -16,4 +16,3 @@ $premier = ob_get_contents(); /* récuperer le contenu du tampon au lien d'envoy
 ob_end_clean(); // vide le tampon sans rien envoyer dans le serveur.
 
 echo  $premier . $deuxime;
-

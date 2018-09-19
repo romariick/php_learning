@@ -5,9 +5,9 @@
   
   print_r(headers_list());
   var_dump(headers_sent());
-  setcookie('Romaric', 'KKkkk', 0, 'www.google.com', null, FALSE);
+  setcookie('Romaric', 'KKkkk', 0, 'www.google.com', null, false);
   
-  // si on ne donne pas de value php attribut directement value par 
+  // si on ne donne pas de value php attribut directement value par
   // la valeur à  l'intérieur exemple PHP en bas
 ?>
 

@@ -1,12 +1,13 @@
 <?php
 $a = 10;
 
-function myFunction($b){
-  $a = 20;
+function myFunction($b)
+{
+    $a = 20;
   
-  global $a, $c;
+    global $a, $c;
   
-  return $c = $a + $b;
+    return $c = $a + $b;
 }
 
 echo myFunction(40) + $c;

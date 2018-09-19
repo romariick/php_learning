@@ -13,4 +13,3 @@ $f = fopen('exemple.txt', 'r');
 $read2 = fpassthru($f);
 echo $read2;
 fclose($f);
-

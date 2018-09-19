@@ -1,12 +1,8 @@
 <?php
 
-/**
- * Description of DimensionMaison
- *
- * @author Romaric
- */
-interface DimensionMaison {
-    
+
+interface DimensionMaison
+{
     public function getHauteur();
     public function getLargeur();
 }

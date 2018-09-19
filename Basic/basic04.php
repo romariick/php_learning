@@ -1,11 +1,11 @@
 <?php
 
-/*Le réf est un moyen d'accèder au contenu d'une même 
+/*Le réf est un moyen d'accèder au contenu d'une même
  * variable en utilisant plusieurs nom. Passage par réference.*/
 
-function modifyArray(&$array){
-    
-    foreach ($array as &$value){
+function modifyArray(&$array)
+{
+    foreach ($array as &$value) {
         $value = $value + 2 ;
     }
     $value = $value + 3;

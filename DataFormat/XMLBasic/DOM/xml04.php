@@ -13,5 +13,3 @@ $tex = $document->createTextNode($text);
 $titre->appendChild($tex);
 
 $document->save('livrexml.xml');
-
-

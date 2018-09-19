@@ -1,6 +1,6 @@
 <?php
 
-/* 
+/*
  quotemeta protège les chaine comme le :
  *  . \ + * ? [ ^ ] ( $ )
  */

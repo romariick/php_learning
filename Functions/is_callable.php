@@ -1,7 +1,7 @@
 <?php
 
-$funct = function($a, $b){
-return $a * $b;
+$funct = function ($a, $b) {
+    return $a * $b;
 };
 
 print_r(is_callable($funct)).PHP_EOL; // 1

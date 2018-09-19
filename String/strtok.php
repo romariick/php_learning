@@ -6,4 +6,4 @@ var_dump(strtok($ch, '//'));// iii
 
 echo strstr('ABCD */*', '*/*', true);
 
-echo substr('romariick@gmail.com', 16); 
+echo substr('romariick@gmail.com', 16);

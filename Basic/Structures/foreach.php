@@ -1,7 +1,8 @@
 <?php
 
-function myFunction(&$array){
-    foreach ($array as &$value){
+function myFunction(&$array)
+{
+    foreach ($array as &$value) {
         $value = $value + 2;
     }
     $value = $value + 3;

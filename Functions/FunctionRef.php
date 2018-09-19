@@ -2,9 +2,10 @@
 
 $var = 10;
 
-function &myFunction(&$var){
+function &myFunction(&$var)
+{
     return $var + 20;
-} 
+}
 
 /*@ : operateur pour ignorer un warging. */
 
