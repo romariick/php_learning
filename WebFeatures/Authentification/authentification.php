@@ -1,5 +1,8 @@
 <?php
-//PHP_AUTH_USER, PHP_AUTH_PWD, PHP_AUTH_TYPE
+
+/*
+ * PHP_AUTH_USER, PHP_AUTH_PWD, PHP_AUTH_TYPE
+*/
 
 
 header('WWW-Authenticate: Basic realm=secret area');

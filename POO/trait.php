@@ -1,6 +1,6 @@
 <?php
 
-// Utilisé pour regrouper des fonctionnalité de manière intérressante
+// Trait : regrouper des fonctionnalité de manière intérressante.
 
 trait listMethode
 {
@@ -22,7 +22,7 @@ class A
     use listMethode, listAutreMethod{
     }
     // listAutreMethod Fatal error because 2 method same (instaededof)
-    
+
     public function somme()
     {
         return 20;
