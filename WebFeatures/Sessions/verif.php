@@ -5,7 +5,6 @@ if (
         isset($_POST['pseudo'])
         && isset($_POST['motdepasse'])
     ) {
-    
     $pseudo = strip_tags($_POST['pseudo']);
 
     $motdepasse = strip_tags($_POST['motdepasse']);
