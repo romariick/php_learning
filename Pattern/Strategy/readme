@@ -1,0 +1,2 @@
+Definition :
+Ce patron de conception permet à un code client de sélectionner un algorithme à la volée en fonction de ses besoins. Il encapsule les algorithmes, ce qui permet de les utiliser à divers endroits de votre application, sans avoir à dupliquer le code.
