@@ -1,0 +1,5 @@
+Definition
+
+Ce patron de conception permet de limiter la dépendance entre les objets. Lorsque un événement précis se produit dans une application, il peut être nécessaire de lancer une ou plusieurs actions. Habituellement, toutes ces actions sont appelées à la suite dans une méthode. L'inconvénient de cette pratique est que la classe appelante devient dépendante de toutes les autres classes qui exécutent ces actions.
+
+Grâce à ce patron de conception, on va pouvoir séparer les différentes actions. Pour cela, on crée un objet qui va être observé. C'est lui qui va lancé l'alerte. Ensuite, on va crée plusieurs objets qui vont observer cet objet. Dès que l'alerte est donnée par l'objet observé, les objets observateurs vont lancer leur(s) action(s).
