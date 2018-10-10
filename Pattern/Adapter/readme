@@ -1,4 +1,8 @@
 Definition :
-Le pattern Adaptateur permet de convertir l'interface d'une classe en une autre interface que le client attend, sans modifier la classe elle-même. Il permet donc de faire travailler ensemble des classes qui normalement ne le pouvaient pas à cause d'interfaces incompatibles.
 
-Pour cela, l'adaptateur va fournir l'interface demandée par le client tout en continuant à utiliser l'interface d'origine. C'est utile par exemple quand vous voulez normaliser des anciennes classes, sans modifier leurs codes.
+Le pattern Adaptateur permet de convertir l'interface d'une classe en une autre interface que le client attend,
+sans modifier la classe elle-même. Il permet donc de faire travailler ensemble des classes qui normalement
+ne le pouvaient pas à cause d'interfaces incompatibles.
+
+Pour cela, l'adaptateur va fournir l'interface demandée par le client tout en continuant à utiliser l'interface d'origine.
+C'est utile par exemple quand vous voulez normaliser des anciennes classes, sans modifier leurs codes.

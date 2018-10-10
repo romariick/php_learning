@@ -1,13 +1,15 @@
-Deux classes implement une interface
+Deux classes implements une interface
 
 Result :
 Chargement de l'image
 Affiche de l'image
 Affiche de l'image
 
-
 Definition :
 
-Un proxy est un intermédiaire entre la partie cliente et un objet. Le proxy implémente la même interface que la classe à laquelle il se substitue.
+Un proxy est un intermédiaire entre la partie cliente et un objet.
+Le proxy implémente la même interface que la classe à laquelle il se substitue.
 
-L'utilisation du proxy permet de contrôler l'accès aux méthodes de la classe substituée. Il permet aussi de simplifier l'utilisation d'un objet complexe ou d'éviter de manipuler un objet qui est trop consommateur de ressource.
+L'utilisation du proxy permet de contrôler l'accès aux méthodes de la classe substituée.
+Il permet aussi de simplifier l'utilisation d'un objet complexe ou d'éviter de manipuler
+un objet qui est trop consommateur de ressource.

@@ -9,7 +9,6 @@ class Image implements ImageInterface
     public function __construct($filename)
     {
         $this->filename = $filename;
-        // load
         $this->load($filename);
     }
 
